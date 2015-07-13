@@ -40,7 +40,7 @@
 void chatterCallback(const nav_msgs::Odometry::ConstPtr& msg)
 {
  // ROS_INFO("I heard: [%s]", msg->data.c_str());
- //printf (" %f  %f  %f \n", msg->pose.pose.position.x, msg->pose.pose.position.y ,msg-> pose.pose.position.z);
+ printf (" %f  %f  %f \n", msg->pose.pose.position.x, msg->pose.pose.position.y ,msg-> pose.pose.position.z);
  printf (" %f  %f  %f \n", msg->twist.twist.linear.x, msg->twist.twist.linear.y ,msg-> twist.twist.linear.z);
 }
 // %EndTag(CALLBACK)%
