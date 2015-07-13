@@ -1,0 +1,56 @@
+<package>
+  <description brief="mhk_nav">
+
+     mhk_nav
+
+  </description>
+  <author>MHossein</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/mhk_nav</url>
+  <depend package="std_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="geometry_msgs"/>
+        <depend package="rtabmap_ros"/>
+        <depend package="pcl_conversions"/>
+        <depend package="stereo_msgs"/>
+        <depend package="class_loader"/>
+        <depend package="libpcl-all-dev"/>
+        <depend package="catkin"/>
+        <depend package="image_transport_plugins"/>
+        <depend package="pcl_ros"/>
+        <depend package="laser_geometry"/>
+        <depend package="eigen_conversions"/>
+        <depend package="tf2_ros"/>
+        <depend package=" visualization_msgs"/>
+        <depend package="tf"/>
+        <depend package="nodelet"/>
+        <depend package="message_filters"/>
+        <depend package="sensor_msgs"/>
+        <depend package="std_msgs"/>
+        <depend package="image_transport"/>
+                 
+                  
+                  
+                 <depend package="octomap_ros"/>
+                 <depend package="costmap_2d"/>
+                 <depend package="move_base_msgs"/>
+                 <depend package="cv_bridge"/>
+                 <depend package="tf_conversions"/>
+                 <depend package="rviz"/>
+                 <depend package="dynamic_reconfigure"/>
+                 <depend package="genmsg"/>
+                          
+                          
+                           <depend package="std_srvs"/>
+                           <depend package="octomap"/>
+                           <depend package="geometry_msgs"/>
+        
+                           
+                     
+
+</package>
+
+
